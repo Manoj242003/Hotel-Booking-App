@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-600 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-white text-xl font-bold">TripHaven</h1>
+        <h1 className="text-white text-xl font-bold">Hotel Hub</h1>
         <div className="hidden md:flex space-x-4">
           <Link to="/" className={`text-white ${isActive('/')}`}>Home</Link>
           <Link to="/hotels" className={`text-white ${isActive('/hotels')}`}>Hotels</Link>
